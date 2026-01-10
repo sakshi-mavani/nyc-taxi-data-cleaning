@@ -112,3 +112,24 @@ This project helped me gain confidence in working with real datasets.
 I plan to improve this project further by trying advanced models and deployment.
 
 Thanks for checking out my project...Sakshi
+
+## How to Run
+
+1. Create sample data (optional, for large raw files):
+   python src/create_sample.py
+
+2. Clean the data:
+   python src/clean_data.py
+
+3. Perform EDA:
+   python src/eda.py
+
+4. Feature engineering:
+   python src/feature_engineering.py
+
+5. Prepare data for modeling:
+   python src/model_ready.py
+
+6. Train models:
+   python src/train_model.py
+   python src/train_rf_model.py
